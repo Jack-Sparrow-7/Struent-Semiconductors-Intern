@@ -1,4 +1,4 @@
-module and_by_nand_nor_tb;
+module or_by_nand_nor_tb;
 
     reg nand_a, nand_b;
     wire nand_out;
@@ -6,13 +6,13 @@ module and_by_nand_nor_tb;
     reg nor_a, nor_b;
     wire nor_out;
 
-    and_by_nand and_gate (
+    or_by_nand or_gate (
         .a  (nand_a),
         .b  (nand_b),
         .out(nand_out)
     );
 
-    and_by_nor and_gate2 (
+    or_by_nor or_gate2 (
         .a  (nor_a),
         .b  (nor_b),
         .out(nor_out)
@@ -23,7 +23,7 @@ module and_by_nand_nor_tb;
 
 
         $dumpfile("wave.vcd");
-        $dumpvars(0, and_by_nand_nor_tb);
+        $dumpvars(0, or_by_nand_nor_tb);
 
         for (integer i = 0; i < 4; i = i + 1) begin
             nand_a = i[1];

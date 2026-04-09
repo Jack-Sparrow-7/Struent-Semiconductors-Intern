@@ -41,18 +41,18 @@ module and_by_nor(
 
     nor_gate nor1 (
         .a  (a),
-        .b  (b),
+        .b  (a),
         .out(nor1_out)
     );
 
     nor_gate nor2 (
-        .a  (nor1_out),
-        .b  (nor1_out),
+        .a  (b),
+        .b  (b),
         .out(nor2_out)
     );
 
     nor_gate nor3 (
-        .a  (nor2_out),
+        .a  (nor1_out),
         .b  (nor2_out),
         .out(out)
     );
