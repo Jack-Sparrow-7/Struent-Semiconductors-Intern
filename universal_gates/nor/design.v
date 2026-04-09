@@ -1,3 +1,6 @@
+`ifndef UNIVERSAL_GATES_NOR_DESIGN_V
+`define UNIVERSAL_GATES_NOR_DESIGN_V
+
 // Design of a NOR gate using PMOS and NMOS transistors
 module nor_gate (
     a,
@@ -20,3 +23,5 @@ module nor_gate (
     nmos n2 (out, gnd, b);
 
 endmodule
+
+`endif
