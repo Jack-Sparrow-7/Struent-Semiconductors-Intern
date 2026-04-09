@@ -1,0 +1,82 @@
+$date
+	Thu Apr  9 12:30:27 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module not_by_nand_nor_tb $end
+$var wire 1 ! nand_out $end
+$var wire 1 " nor_out $end
+$var reg 1 # nand_a $end
+$var reg 1 $ nor_a $end
+$scope module not_gate $end
+$var wire 1 # a $end
+$var wire 1 ! out $end
+$scope module nand1 $end
+$var wire 1 # a $end
+$var wire 1 # b $end
+$var wire 1 % gnd $end
+$var wire 1 ! out $end
+$var wire 1 & vcc $end
+$var wire 1 ' w1 $end
+$upscope $end
+$upscope $end
+$scope module not_gate2 $end
+$var wire 1 $ a $end
+$var wire 1 " out $end
+$scope module nor1 $end
+$var wire 1 $ a $end
+$var wire 1 $ b $end
+$var wire 1 ( gnd $end
+$var wire 1 " out $end
+$var wire 1 ) vcc $end
+$var wire 1 * w1 $end
+$upscope $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 + i [31:0] $end
+$upscope $end
+$scope begin $ivl_for_loop1 $end
+$var integer 32 , i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx ,
+b0 +
+x*
+1)
+0(
+z'
+1&
+0%
+x$
+0#
+x"
+1!
+$end
+#10
+0!
+0'
+1#
+b1 +
+#20
+1*
+1"
+0$
+b0 ,
+b10 +
+#30
+z*
+0"
+1$
+b1 ,
+#40
+b10 ,
