@@ -1,5 +1,5 @@
-`include "../../universal_gates/nand/design.v"
-`include "../../universal_gates/nor/design.v"
+`include "/home/jack/struent_semiconductors_intern/universal_gates/nor/design.v"
+`include "/home/jack/struent_semiconductors_intern/universal_gates/nand/design.v"
 
 
 // XNOR gate implemented using NOR gates

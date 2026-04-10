@@ -1,5 +1,5 @@
-`include "../../universal_gates/nand/design.v"
-`include "../../universal_gates/nor/design.v"
+`include "/home/jack/struent_semiconductors_intern/universal_gates/nor/design.v"
+`include "/home/jack/struent_semiconductors_intern/universal_gates/nand/design.v"
 
 // NOT gate implemented using NAND gates
 module not_by_nand (

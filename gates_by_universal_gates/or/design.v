@@ -1,5 +1,5 @@
-`include "../../universal_gates/nand/design.v"
-`include "../../universal_gates/nor/design.v"
+`include "/home/jack/struent_semiconductors_intern/universal_gates/nor/design.v"
+`include "/home/jack/struent_semiconductors_intern/universal_gates/nand/design.v"
 
 // OR gate implemented using Nor gates
 module or_by_nor (
