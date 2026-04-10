@@ -1,0 +1,281 @@
+$date
+	Fri Apr 10 12:03:13 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module half_adder_tb $end
+$var wire 1 ! sl_carry $end
+$var wire 1 " sl_sum $end
+$var wire 1 # gl_sum $end
+$var wire 1 $ gl_carry $end
+$var wire 1 % df_sum $end
+$var wire 1 & df_carry $end
+$var wire 1 ' bh_sum $end
+$var wire 1 ( bh_carry $end
+$var reg 1 ) bh_a $end
+$var reg 1 * bh_b $end
+$var reg 1 + df_a $end
+$var reg 1 , df_b $end
+$var reg 1 - gl_a $end
+$var reg 1 . gl_b $end
+$var reg 1 / sl_a $end
+$var reg 1 0 sl_b $end
+$scope module bh $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var reg 1 ( carry $end
+$var reg 1 ' sum $end
+$upscope $end
+$scope module df $end
+$var wire 1 + a $end
+$var wire 1 , b $end
+$var wire 1 & carry $end
+$var wire 1 % sum $end
+$upscope $end
+$scope module gl $end
+$var wire 1 - a $end
+$var wire 1 . b $end
+$var wire 1 $ carry $end
+$var wire 1 # sum $end
+$upscope $end
+$scope module sl $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 ! carry $end
+$var wire 1 " sum $end
+$scope module and_gate $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 1 nand_out $end
+$var wire 1 ! out $end
+$scope module nand1 $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 2 gnd $end
+$var wire 1 1 out $end
+$var wire 1 3 vcc $end
+$var wire 1 4 w1 $end
+$upscope $end
+$scope module nand2 $end
+$var wire 1 1 a $end
+$var wire 1 1 b $end
+$var wire 1 5 gnd $end
+$var wire 1 ! out $end
+$var wire 1 6 vcc $end
+$var wire 1 7 w1 $end
+$upscope $end
+$upscope $end
+$scope module xor_gate $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 8 nand1_out $end
+$var wire 1 9 nand2_out $end
+$var wire 1 : nand3_out $end
+$var wire 1 " out $end
+$scope module nand1 $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 ; gnd $end
+$var wire 1 8 out $end
+$var wire 1 < vcc $end
+$var wire 1 = w1 $end
+$upscope $end
+$scope module nand2 $end
+$var wire 1 / a $end
+$var wire 1 8 b $end
+$var wire 1 > gnd $end
+$var wire 1 9 out $end
+$var wire 1 ? vcc $end
+$var wire 1 @ w1 $end
+$upscope $end
+$scope module nand3 $end
+$var wire 1 8 a $end
+$var wire 1 0 b $end
+$var wire 1 A gnd $end
+$var wire 1 : out $end
+$var wire 1 B vcc $end
+$var wire 1 C w1 $end
+$upscope $end
+$scope module nand4 $end
+$var wire 1 9 a $end
+$var wire 1 : b $end
+$var wire 1 D gnd $end
+$var wire 1 " out $end
+$var wire 1 E vcc $end
+$var wire 1 F w1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 G i [31:0] $end
+$upscope $end
+$scope begin $ivl_for_loop1 $end
+$var integer 32 H i [31:0] $end
+$upscope $end
+$scope begin $ivl_for_loop2 $end
+$var integer 32 I i [31:0] $end
+$upscope $end
+$scope begin $ivl_for_loop3 $end
+$var integer 32 J i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx J
+bx I
+bx H
+b0 G
+xF
+1E
+0D
+xC
+1B
+0A
+x@
+1?
+0>
+x=
+1<
+0;
+x:
+x9
+x8
+x7
+16
+05
+x4
+13
+02
+x1
+x0
+x/
+x.
+x-
+0,
+0+
+x*
+x)
+x(
+x'
+0&
+0%
+x$
+x#
+x"
+x!
+$end
+#10
+1%
+1,
+b1 G
+#20
+1+
+0,
+b10 G
+#30
+0%
+1&
+1,
+b11 G
+#40
+0(
+0'
+0)
+0*
+b0 H
+b100 G
+#50
+1'
+1*
+b1 H
+#60
+1)
+0*
+b10 H
+#70
+1(
+0'
+1*
+b11 H
+#80
+0#
+0$
+0-
+0.
+b0 I
+b100 H
+#90
+1#
+1.
+b1 I
+#100
+1-
+0.
+b10 I
+#110
+0#
+1$
+1.
+b11 I
+#120
+0"
+19
+0/
+0!
+07
+11
+z4
+0@
+18
+z=
+0F
+1:
+zC
+00
+b0 J
+b100 I
+#130
+04
+0=
+1"
+zF
+0:
+0C
+10
+b1 J
+#140
+09
+1/
+z4
+z=
+1"
+0F
+1:
+zC
+00
+b10 J
+#150
+1!
+z7
+01
+04
+0"
+19
+z@
+08
+0=
+0F
+1:
+0C
+10
+b11 J
+#160
+b100 J
