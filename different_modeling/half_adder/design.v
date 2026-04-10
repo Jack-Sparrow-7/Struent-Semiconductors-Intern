@@ -1,5 +1,6 @@
 `include "../../gates_by_universal_gates/and/design.v"
 `include "../../gates_by_universal_gates/or/design.v"
+`include "../../gates_by_universal_gates/xor/design.v"
 
 // Dataflow modeling
 module half_adder_dataflow (
@@ -76,21 +77,9 @@ module half_adder_switch_level (
         .out(carry)
     );
 
-    and_by_nor and_gate2 (
+    xor_by_nand xor_gate (
         .a  (a),
-        .b  (~b),
-        .out(and_gate2_out)
-    );
-
-    and_by_nor and_gate3 (
-        .a  (~a),
         .b  (b),
-        .out(and_gate3_out)
-    );
-
-    or_by_nor or_gate (
-        .a  (and_gate2_out),
-        .b  (and_gate3_out),
         .out(sum)
     );
 

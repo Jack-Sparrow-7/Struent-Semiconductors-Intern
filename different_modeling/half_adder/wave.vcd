@@ -1,5 +1,5 @@
 $date
-	Fri Apr 10 10:48:40 2026
+	Fri Apr 10 11:36:34 2026
 $end
 $version
 	Icarus Verilog
@@ -44,129 +44,83 @@ $var wire 1 # sum $end
 $upscope $end
 $scope module sl $end
 $var wire 1 / a $end
-$var wire 1 1 and_gate2_out $end
-$var wire 1 2 and_gate3_out $end
 $var wire 1 0 b $end
 $var wire 1 ! carry $end
 $var wire 1 " sum $end
 $scope module and_gate $end
 $var wire 1 / a $end
 $var wire 1 0 b $end
-$var wire 1 3 nand_out $end
+$var wire 1 1 nand_out $end
 $var wire 1 ! out $end
 $scope module nand1 $end
 $var wire 1 / a $end
 $var wire 1 0 b $end
-$var wire 1 4 gnd $end
-$var wire 1 3 out $end
-$var wire 1 5 vcc $end
-$var wire 1 6 w1 $end
+$var wire 1 2 gnd $end
+$var wire 1 1 out $end
+$var wire 1 3 vcc $end
+$var wire 1 4 w1 $end
 $upscope $end
 $scope module nand2 $end
-$var wire 1 3 a $end
-$var wire 1 3 b $end
-$var wire 1 7 gnd $end
+$var wire 1 1 a $end
+$var wire 1 1 b $end
+$var wire 1 5 gnd $end
 $var wire 1 ! out $end
-$var wire 1 8 vcc $end
-$var wire 1 9 w1 $end
+$var wire 1 6 vcc $end
+$var wire 1 7 w1 $end
 $upscope $end
 $upscope $end
-$scope module and_gate2 $end
+$scope module xor_gate $end
 $var wire 1 / a $end
-$var wire 1 : b $end
-$var wire 1 ; nor1_out $end
-$var wire 1 < nor2_out $end
-$var wire 1 1 out $end
-$scope module nor1 $end
+$var wire 1 0 b $end
+$var wire 1 8 nand1_out $end
+$var wire 1 9 nand2_out $end
+$var wire 1 : nand3_out $end
+$var wire 1 " out $end
+$scope module nand1 $end
 $var wire 1 / a $end
-$var wire 1 / b $end
-$var wire 1 = gnd $end
-$var wire 1 ; out $end
-$var wire 1 > vcc $end
-$var wire 1 ? w1 $end
+$var wire 1 0 b $end
+$var wire 1 ; gnd $end
+$var wire 1 8 out $end
+$var wire 1 < vcc $end
+$var wire 1 = w1 $end
 $upscope $end
-$scope module nor2 $end
-$var wire 1 : a $end
+$scope module nand2 $end
+$var wire 1 / a $end
+$var wire 1 8 b $end
+$var wire 1 > gnd $end
+$var wire 1 9 out $end
+$var wire 1 ? vcc $end
+$var wire 1 @ w1 $end
+$upscope $end
+$scope module nand3 $end
+$var wire 1 8 a $end
+$var wire 1 0 b $end
+$var wire 1 A gnd $end
+$var wire 1 : out $end
+$var wire 1 B vcc $end
+$var wire 1 C w1 $end
+$upscope $end
+$scope module nand4 $end
+$var wire 1 9 a $end
 $var wire 1 : b $end
-$var wire 1 @ gnd $end
-$var wire 1 < out $end
-$var wire 1 A vcc $end
-$var wire 1 B w1 $end
-$upscope $end
-$scope module nor3 $end
-$var wire 1 ; a $end
-$var wire 1 < b $end
-$var wire 1 C gnd $end
-$var wire 1 1 out $end
-$var wire 1 D vcc $end
-$var wire 1 E w1 $end
-$upscope $end
-$upscope $end
-$scope module and_gate3 $end
-$var wire 1 F a $end
-$var wire 1 0 b $end
-$var wire 1 G nor1_out $end
-$var wire 1 H nor2_out $end
-$var wire 1 2 out $end
-$scope module nor1 $end
-$var wire 1 F a $end
-$var wire 1 F b $end
-$var wire 1 I gnd $end
-$var wire 1 G out $end
-$var wire 1 J vcc $end
-$var wire 1 K w1 $end
-$upscope $end
-$scope module nor2 $end
-$var wire 1 0 a $end
-$var wire 1 0 b $end
-$var wire 1 L gnd $end
-$var wire 1 H out $end
-$var wire 1 M vcc $end
-$var wire 1 N w1 $end
-$upscope $end
-$scope module nor3 $end
-$var wire 1 G a $end
-$var wire 1 H b $end
-$var wire 1 O gnd $end
-$var wire 1 2 out $end
-$var wire 1 P vcc $end
-$var wire 1 Q w1 $end
-$upscope $end
-$upscope $end
-$scope module or_gate $end
-$var wire 1 1 a $end
-$var wire 1 2 b $end
-$var wire 1 R nor_out $end
+$var wire 1 D gnd $end
 $var wire 1 " out $end
-$scope module nor1 $end
-$var wire 1 1 a $end
-$var wire 1 2 b $end
-$var wire 1 S gnd $end
-$var wire 1 R out $end
-$var wire 1 T vcc $end
-$var wire 1 U w1 $end
-$upscope $end
-$scope module nor2 $end
-$var wire 1 R a $end
-$var wire 1 R b $end
-$var wire 1 V gnd $end
-$var wire 1 " out $end
-$var wire 1 W vcc $end
-$var wire 1 X w1 $end
+$var wire 1 E vcc $end
+$var wire 1 F w1 $end
 $upscope $end
 $upscope $end
 $upscope $end
 $scope begin $ivl_for_loop0 $end
-$var integer 32 Y i [31:0] $end
+$var integer 32 G i [31:0] $end
 $upscope $end
 $scope begin $ivl_for_loop1 $end
-$var integer 32 Z i [31:0] $end
+$var integer 32 H i [31:0] $end
 $upscope $end
 $scope begin $ivl_for_loop2 $end
-$var integer 32 [ i [31:0] $end
+$var integer 32 I i [31:0] $end
 $upscope $end
 $scope begin $ivl_for_loop3 $end
-$var integer 32 \ i [31:0] $end
+$var integer 32 J i [31:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -175,49 +129,31 @@ $dumpall
 $end
 #0
 $dumpvars
-bx \
-bx [
-bx Z
-b0 Y
-xX
-1W
-0V
-xU
-1T
-0S
-xR
-xQ
-1P
-0O
-xN
-1M
-0L
-xK
-1J
-0I
-xH
-xG
+bx J
+bx I
+bx H
+b0 G
 xF
-xE
-1D
-0C
-xB
-1A
-0@
-x?
-1>
-0=
-x<
-x;
+1E
+0D
+xC
+1B
+0A
+x@
+1?
+0>
+x=
+1<
+0;
 x:
 x9
-18
-07
-x6
-15
-04
-x3
-x2
+x8
+x7
+16
+05
+x4
+13
+02
 x1
 x0
 x/
@@ -239,135 +175,107 @@ $end
 #10
 1%
 1,
-b1 Y
+b1 G
 #20
 1+
 0,
-b10 Y
+b10 G
 #30
 0%
 1&
 1,
-b11 Y
+b11 G
 #40
 0(
 0'
 0)
 0*
-b0 Z
-b100 Y
+b0 H
+b100 G
 #50
 1'
 1*
-b1 Z
+b1 H
 #60
 1)
 0*
-b10 Z
+b10 H
 #70
 1(
 0'
 1*
-b11 Z
+b11 H
 #80
 0#
 0$
 0-
 0.
-b0 [
-b100 Z
+b0 I
+b100 H
 #90
 1#
 1.
-b1 [
+b1 I
 #100
 1-
 0.
-b10 [
+b10 I
 #110
 0#
 1$
 1.
-b11 [
+b11 I
 #120
-zK
-1Q
-0G
-1F
-zB
-0<
-1:
 0"
-1U
-zX
-1R
-01
-1?
-zE
-1;
+19
 0/
 0!
-09
-13
-z6
-02
-1N
-1H
-00
-b0 \
-b100 [
-#130
-1B
-1<
-0:
-06
-zN
-1X
-1"
-0R
-12
-0H
-10
-b1 \
-#140
-1K
-zQ
-1G
-0F
-zB
-zU
+07
 11
-0<
+z4
+0@
+18
+z=
+0F
 1:
-z?
-1E
-0;
-1/
-z6
-1N
-1X
-1"
-0R
-02
-1H
+zC
 00
-b10 \
-#150
-1B
-1U
-zX
-0"
-1R
-01
-1<
+b0 J
+b100 I
+#130
+04
+0=
+1"
+zF
 0:
-1!
-z9
-03
-06
-zN
-0H
+0C
 10
-b11 \
+b1 J
+#140
+09
+1/
+z4
+z=
+1"
+0F
+1:
+zC
+00
+b10 J
+#150
+1!
+z7
+01
+04
+0"
+19
+z@
+08
+0=
+0F
+1:
+0C
+10
+b11 J
 #160
-b100 \
+b100 J
