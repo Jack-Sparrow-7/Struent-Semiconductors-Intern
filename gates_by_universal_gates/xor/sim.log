@@ -1,0 +1,10 @@
+VCD info: dumpfile wave.vcd opened for output.
+XOR_BY_NAND: a=0, b=0, y=0
+XOR_BY_NAND: a=0, b=1, y=1
+XOR_BY_NAND: a=1, b=0, y=1
+XOR_BY_NAND: a=1, b=1, y=0
+
+XOR_BY_NOR: a=0, b=0, y=0
+XOR_BY_NOR: a=0, b=1, y=1
+XOR_BY_NOR: a=1, b=0, y=1
+XOR_BY_NOR: a=1, b=1, y=0
