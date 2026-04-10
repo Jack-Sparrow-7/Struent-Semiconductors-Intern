@@ -26,7 +26,7 @@ module not_by_nand_nor_tb;
         for (integer i = 0; i < 2; i = i + 1) begin
             nand_a = i;
             #10;
-            $display("NAND ---  a: %b, out: %b", nand_a, nand_out);
+            $display("NOT_BY_NAND ---  a: %b, out: %b", nand_a, nand_out);
         end
 
         $write("\n");
@@ -34,7 +34,7 @@ module not_by_nand_nor_tb;
         for (integer i = 0; i < 2; i = i + 1) begin
             nor_a = i;
             #10;
-            $display("NOR ---  a: %b, out: %b", nor_a, nor_out);
+            $display("NOT_BY_NOR ---  a: %b, out: %b", nor_a, nor_out);
         end
 
         $finish;

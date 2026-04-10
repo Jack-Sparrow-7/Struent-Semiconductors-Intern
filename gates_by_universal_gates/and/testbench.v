@@ -29,7 +29,7 @@ module and_by_nand_nor_tb;
             nand_a = i[1];
             nand_b = i[0];
             #10;
-            $display("NAND ---  a: %b, b: %b, out: %b", nand_a, nand_b,
+            $display("AND_BY_NAND ---  a: %b, b: %b, out: %b", nand_a, nand_b,
                      nand_out);
         end
 
@@ -39,7 +39,7 @@ module and_by_nand_nor_tb;
             nor_a = i[1];
             nor_b = i[0];
             #10;
-            $display("NOR ---  a: %b, b: %b, out: %b", nor_a, nor_b, nor_out);
+            $display("AND_BY_NOR ---  a: %b, b: %b, out: %b", nor_a, nor_b, nor_out);
         end
 
         $finish;
