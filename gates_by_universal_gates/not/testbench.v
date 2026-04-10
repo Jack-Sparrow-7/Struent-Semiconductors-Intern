@@ -29,6 +29,8 @@ module not_by_nand_nor_tb;
             $display("NAND ---  a: %b, out: %b", nand_a, nand_out);
         end
 
+        $write("\n");
+
         for (integer i = 0; i < 2; i = i + 1) begin
             nor_a = i;
             #10;

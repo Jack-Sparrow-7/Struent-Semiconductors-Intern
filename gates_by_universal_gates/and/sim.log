@@ -1,0 +1,11 @@
+VCD info: dumpfile wave.vcd opened for output.
+NAND ---  a: 0, b: 0, out: 0
+NAND ---  a: 0, b: 1, out: 0
+NAND ---  a: 1, b: 0, out: 0
+NAND ---  a: 1, b: 1, out: 1
+
+NOR ---  a: 0, b: 0, out: 0
+NOR ---  a: 0, b: 1, out: 0
+NOR ---  a: 1, b: 0, out: 0
+NOR ---  a: 1, b: 1, out: 1
+testbench.v:45: $finish called at 80 (1s)

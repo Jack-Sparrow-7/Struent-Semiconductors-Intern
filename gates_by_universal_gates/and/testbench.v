@@ -33,6 +33,8 @@ module and_by_nand_nor_tb;
                      nand_out);
         end
 
+        $write("\n");
+
         for (integer i = 0; i < 4; i = i + 1) begin
             nor_a = i[1];
             nor_b = i[0];

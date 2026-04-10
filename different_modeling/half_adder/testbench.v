@@ -51,6 +51,8 @@ module half_adder_tb;
                      df_sum, df_carry);
         end
 
+        $write("\n");
+
         for (integer i = 0; i < 4; i++) begin
             {bh_a, bh_b} = i[1:0];
             #10;
@@ -59,6 +61,8 @@ module half_adder_tb;
                      bh_sum, bh_carry);
         end
 
+        $write("\n");
+
         for (integer i = 0; i < 4; i++) begin
             {gl_a, gl_b} = i[1:0];
             #10;
@@ -66,6 +70,8 @@ module half_adder_tb;
             $display("Gate-level: a=%b, b=%b, sum=%b, carry=%b", gl_a, gl_b,
                      gl_sum, gl_carry);
         end
+        
+        $write("\n");
 
         for (integer i = 0; i < 4; i++) begin
             {sl_a, sl_b} = i[1:0];
