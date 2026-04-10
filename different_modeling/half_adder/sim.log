@@ -18,3 +18,4 @@ Switch-level: a=0, b=0, sum=0, carry=0
 Switch-level: a=0, b=1, sum=1, carry=0
 Switch-level: a=1, b=0, sum=1, carry=0
 Switch-level: a=1, b=1, sum=0, carry=1
+testbench.v:84: $finish called at 160 (1s)

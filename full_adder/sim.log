@@ -34,3 +34,4 @@ Switch-level: a=1, b=0, cin=0, sum=1, carry=0
 Switch-level: a=1, b=0, cin=1, sum=0, carry=1
 Switch-level: a=1, b=1, cin=0, sum=0, carry=1
 Switch-level: a=1, b=1, cin=1, sum=1, carry=1
+testbench.v:88: $finish called at 320 (1s)

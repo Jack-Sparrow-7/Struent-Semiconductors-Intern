@@ -80,5 +80,7 @@ module half_adder_tb;
             $display("Switch-level: a=%b, b=%b, sum=%b, carry=%b", sl_a, sl_b,
                      sl_sum, sl_carry);
         end
+
+        $finish;
     end
 endmodule

@@ -35,5 +35,7 @@ module xor_tb;
 
             $display("XOR_BY_NOR: a=%b, b=%b, y=%b", nor_a, nor_b, nor_out);
         end
+
+        $finish;
     end
 endmodule

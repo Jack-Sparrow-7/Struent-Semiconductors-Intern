@@ -80,5 +80,7 @@ module half_subtractor_tb;
             $display("Switch-level: a=%b, b=%b, diff=%b, borrow=%b", sl_a, sl_b,
                      sl_diff, sl_borrow);
         end
+
+        $finish;
     end
 endmodule

@@ -8,3 +8,4 @@ XNOR_BY_NOR: a=0, b=0, y=1
 XNOR_BY_NOR: a=0, b=1, y=0
 XNOR_BY_NOR: a=1, b=0, y=0
 XNOR_BY_NOR: a=1, b=1, y=1
+testbench.v:39: $finish called at 80 (1s)

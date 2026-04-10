@@ -1,0 +1,37 @@
+VCD info: dumpfile wave.vcd opened for output.
+Dataflow: a=0, b=0, bin=0, diff=0, borrow=0
+Dataflow: a=0, b=0, bin=1, diff=1, borrow=1
+Dataflow: a=0, b=1, bin=0, diff=1, borrow=1
+Dataflow: a=0, b=1, bin=1, diff=0, borrow=1
+Dataflow: a=1, b=0, bin=0, diff=1, borrow=0
+Dataflow: a=1, b=0, bin=1, diff=0, borrow=0
+Dataflow: a=1, b=1, bin=0, diff=0, borrow=0
+Dataflow: a=1, b=1, bin=1, diff=1, borrow=1
+
+Behavioural: a=0, b=0, bin=0, diff=0, borrow=0
+Behavioural: a=0, b=0, bin=1, diff=1, borrow=1
+Behavioural: a=0, b=1, bin=0, diff=1, borrow=1
+Behavioural: a=0, b=1, bin=1, diff=0, borrow=1
+Behavioural: a=1, b=0, bin=0, diff=1, borrow=0
+Behavioural: a=1, b=0, bin=1, diff=0, borrow=0
+Behavioural: a=1, b=1, bin=0, diff=0, borrow=0
+Behavioural: a=1, b=1, bin=1, diff=1, borrow=1
+
+Gate-level: a=0, b=0, bin=0, diff=0, borrow=0
+Gate-level: a=0, b=0, bin=1, diff=1, borrow=1
+Gate-level: a=0, b=1, bin=0, diff=1, borrow=1
+Gate-level: a=0, b=1, bin=1, diff=0, borrow=1
+Gate-level: a=1, b=0, bin=0, diff=1, borrow=0
+Gate-level: a=1, b=0, bin=1, diff=0, borrow=0
+Gate-level: a=1, b=1, bin=0, diff=0, borrow=0
+Gate-level: a=1, b=1, bin=1, diff=1, borrow=1
+
+Switch-level: a=0, b=0, bin=0, diff=0, borrow=0
+Switch-level: a=0, b=0, bin=1, diff=1, borrow=1
+Switch-level: a=0, b=1, bin=0, diff=1, borrow=1
+Switch-level: a=0, b=1, bin=1, diff=0, borrow=1
+Switch-level: a=1, b=0, bin=0, diff=1, borrow=0
+Switch-level: a=1, b=0, bin=1, diff=0, borrow=0
+Switch-level: a=1, b=1, bin=0, diff=0, borrow=0
+Switch-level: a=1, b=1, bin=1, diff=1, borrow=1
+testbench.v:88: $finish called at 320 (1s)
