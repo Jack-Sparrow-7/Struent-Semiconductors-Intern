@@ -1,0 +1,36 @@
+VCD info: dumpfile wave.vcd opened for output.
+Dataflow: a=0, b=0, cin=0, sum=0, carry=0
+Dataflow: a=0, b=0, cin=1, sum=1, carry=0
+Dataflow: a=0, b=1, cin=0, sum=1, carry=0
+Dataflow: a=0, b=1, cin=1, sum=0, carry=1
+Dataflow: a=1, b=0, cin=0, sum=1, carry=0
+Dataflow: a=1, b=0, cin=1, sum=0, carry=1
+Dataflow: a=1, b=1, cin=0, sum=0, carry=1
+Dataflow: a=1, b=1, cin=1, sum=1, carry=1
+
+Behavioural: a=0, b=0, cin=0, sum=0, carry=0
+Behavioural: a=0, b=0, cin=1, sum=1, carry=0
+Behavioural: a=0, b=1, cin=0, sum=1, carry=0
+Behavioural: a=0, b=1, cin=1, sum=0, carry=1
+Behavioural: a=1, b=0, cin=0, sum=1, carry=0
+Behavioural: a=1, b=0, cin=1, sum=0, carry=1
+Behavioural: a=1, b=1, cin=0, sum=0, carry=1
+Behavioural: a=1, b=1, cin=1, sum=1, carry=1
+
+Gate-level: a=0, b=0, cin=0, sum=0, carry=0
+Gate-level: a=0, b=0, cin=1, sum=1, carry=0
+Gate-level: a=0, b=1, cin=0, sum=1, carry=0
+Gate-level: a=0, b=1, cin=1, sum=0, carry=1
+Gate-level: a=1, b=0, cin=0, sum=1, carry=0
+Gate-level: a=1, b=0, cin=1, sum=0, carry=1
+Gate-level: a=1, b=1, cin=0, sum=0, carry=1
+Gate-level: a=1, b=1, cin=1, sum=1, carry=1
+
+Switch-level: a=0, b=0, cin=0, sum=0, carry=0
+Switch-level: a=0, b=0, cin=1, sum=1, carry=0
+Switch-level: a=0, b=1, cin=0, sum=1, carry=0
+Switch-level: a=0, b=1, cin=1, sum=0, carry=1
+Switch-level: a=1, b=0, cin=0, sum=1, carry=0
+Switch-level: a=1, b=0, cin=1, sum=0, carry=1
+Switch-level: a=1, b=1, cin=0, sum=0, carry=1
+Switch-level: a=1, b=1, cin=1, sum=1, carry=1
