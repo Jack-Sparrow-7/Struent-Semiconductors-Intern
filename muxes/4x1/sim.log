@@ -1,0 +1,6 @@
+VCD info: dumpfile wave.vcd opened for output.
+i0: 1, i1: 0, i2: 1, i3: 0, sel: 00, out: 1
+i0: 1, i1: 0, i2: 1, i3: 0, sel: 01, out: 0
+i0: 1, i1: 0, i2: 1, i3: 0, sel: 10, out: 1
+i0: 1, i1: 0, i2: 1, i3: 0, sel: 11, out: 0
+testbench.v:29: $finish called at 40 (1s)
