@@ -1,3 +1,6 @@
+`ifndef DEMUX1X2_DESIGN_V
+`define DEMUX1X2_DESIGN_V
+
 module demux1x2 (
     in,
     sel,
@@ -10,3 +13,5 @@ module demux1x2 (
     assign out[1] = in & sel;
 
 endmodule
+
+`endif
