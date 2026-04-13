@@ -8,6 +8,7 @@ module mux8x1(
 );
     input [7:0] in;
     input [2:0] sel;
+    wire out1, out2;
     output out;
 
     mux4x1 mux0(
