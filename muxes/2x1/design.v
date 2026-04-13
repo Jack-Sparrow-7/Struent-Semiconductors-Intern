@@ -1,3 +1,6 @@
+`ifndef MUX2X1_DESIGN_V
+`define MUX2X1_DESIGN_V
+
 module mux2x1(
     in,
     sel,
@@ -10,3 +13,5 @@ module mux2x1(
     assign out = sel ? in[1] : in[0];
 
 endmodule
+
+`endif
