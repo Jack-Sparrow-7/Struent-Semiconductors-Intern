@@ -1,0 +1,108 @@
+$date
+	Mon Apr 20 11:26:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 2 ! out [1:0] $end
+$var reg 4 " in [3:0] $end
+$scope module uut $end
+$var wire 4 # in [3:0] $end
+$var reg 2 $ out [1:0] $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 % i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+bx $
+b0 #
+b0 "
+bx !
+$end
+#15
+b0 !
+b0 $
+b1 "
+b1 #
+b1 %
+#30
+b1 !
+b1 $
+b10 "
+b10 #
+b10 %
+#45
+bx !
+bx $
+b11 "
+b11 #
+b11 %
+#60
+b10 !
+b10 $
+b100 "
+b100 #
+b100 %
+#75
+bx !
+bx $
+b101 "
+b101 #
+b101 %
+#90
+b110 "
+b110 #
+b110 %
+#105
+b111 "
+b111 #
+b111 %
+#120
+b11 !
+b11 $
+b1000 "
+b1000 #
+b1000 %
+#135
+bx !
+bx $
+b1001 "
+b1001 #
+b1001 %
+#150
+b1010 "
+b1010 #
+b1010 %
+#165
+b1011 "
+b1011 #
+b1011 %
+#180
+b1100 "
+b1100 #
+b1100 %
+#195
+b1101 "
+b1101 #
+b1101 %
+#210
+b1110 "
+b1110 #
+b1110 %
+#225
+b1111 "
+b1111 #
+b1111 %
+#240
+b10000 %

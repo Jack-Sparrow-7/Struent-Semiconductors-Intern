@@ -5,4 +5,4 @@ iverilog -o out.vvp design.v testbench.v
 vvp -l sim.log out.vvp
 
 # Open the waveform viewer to analyze the results
-gtkwave wave.vcd
+# gtkwave wave.vcd
