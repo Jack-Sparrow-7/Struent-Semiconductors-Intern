@@ -1,0 +1,47 @@
+$date
+	Mon Apr 20 16:02:23 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! out $end
+$var reg 2 " in [1:0] $end
+$scope module uut $end
+$var wire 2 # in [1:0] $end
+$var reg 1 ! out $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 $ i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 $
+b0 #
+b0 "
+0!
+$end
+#10
+b1 "
+b1 #
+b1 $
+#20
+1!
+b10 "
+b10 #
+b10 $
+#30
+0!
+b11 "
+b11 #
+b11 $
+#40
+b100 $
