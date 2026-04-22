@@ -1,0 +1,10 @@
+VCD info: dumpfile wave.vcd opened for output.
+in = 00000001 or 0 | out = 000
+in = 00000010 or 1 | out = 001
+in = 00000100 or 2 | out = 010
+in = 00001000 or 3 | out = 011
+in = 00010000 or 4 | out = 100
+in = 00100000 or 5 | out = 101
+in = 01000000 or 6 | out = 110
+in = 10000000 or 7 | out = 111
+testbench.v:23: $finish called at 120 (1s)
