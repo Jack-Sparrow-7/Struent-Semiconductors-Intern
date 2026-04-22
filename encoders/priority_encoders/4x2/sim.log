@@ -1,0 +1,35 @@
+VCD info: dumpfile wave.vcd opened for output.
+LSB: in = 0000 | out = 00
+LSB: in = 0001 | out = 00
+LSB: in = 0010 | out = 01
+LSB: in = 0011 | out = 00
+LSB: in = 0100 | out = 10
+LSB: in = 0101 | out = 00
+LSB: in = 0110 | out = 00
+LSB: in = 0111 | out = 00
+LSB: in = 1000 | out = 11
+LSB: in = 1001 | out = 00
+LSB: in = 1010 | out = 00
+LSB: in = 1011 | out = 00
+LSB: in = 1100 | out = 00
+LSB: in = 1101 | out = 00
+LSB: in = 1110 | out = 00
+LSB: in = 1111 | out = 00
+
+MSB: in = 0000 | out = 00
+MSB: in = 0001 | out = 00
+MSB: in = 0010 | out = 01
+MSB: in = 0011 | out = 00
+MSB: in = 0100 | out = 10
+MSB: in = 0101 | out = 00
+MSB: in = 0110 | out = 00
+MSB: in = 0111 | out = 00
+MSB: in = 1000 | out = 11
+MSB: in = 1001 | out = 00
+MSB: in = 1010 | out = 00
+MSB: in = 1011 | out = 00
+MSB: in = 1100 | out = 00
+MSB: in = 1101 | out = 00
+MSB: in = 1110 | out = 00
+MSB: in = 1111 | out = 00
+testbench.v:38: $finish called at 480 (1s)
