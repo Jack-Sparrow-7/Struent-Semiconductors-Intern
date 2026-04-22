@@ -7,7 +7,7 @@ module priority_encoder4x2_LSB (
         out = 2'd0;
 
         for (integer i = 0; i < 4; i++) begin
-            if (in[i] && (in != 0) && (in & (in - 1)) == 0) out = i[3:0];
+            if (in[i] && (in != 0) && (in & (in - 1)) == 0) out = i[1:0];
         end
 
     end
@@ -24,7 +24,7 @@ module priority_encoder4x2_MSB (
         out = 2'd0;
 
         for (integer i = 3; i >= 0; i--) begin
-            if (in[i] && (in != 0) && (in & (in - 1)) == 0) out = i[3:0];
+            if (in[i] && (in != 0) && (in & (in - 1)) == 0) out = i[1:0];
         end
 
     end

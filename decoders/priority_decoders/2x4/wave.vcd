@@ -1,0 +1,106 @@
+$date
+	Wed Apr 22 11:44:33 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 4 ! msb_out [3:0] $end
+$var wire 4 " lsb_out [3:0] $end
+$var reg 2 # lsb_in [1:0] $end
+$var reg 2 $ msb_in [1:0] $end
+$scope module uut $end
+$var wire 2 % in [1:0] $end
+$var reg 4 & out [3:0] $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 ' i [31:0] $end
+$upscope $end
+$upscope $end
+$scope module uut2 $end
+$var wire 2 ( in [1:0] $end
+$var reg 4 ) out [3:0] $end
+$scope begin $ivl_for_loop1 $end
+$var integer 32 * i [31:0] $end
+$upscope $end
+$upscope $end
+$scope begin $ivl_for_loop2 $end
+$var integer 32 + i [31:0] $end
+$upscope $end
+$scope begin $ivl_for_loop3 $end
+$var integer 32 , i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx ,
+b0 +
+bx *
+bx )
+bx (
+b100 '
+b1 &
+b0 %
+bx $
+b0 #
+b1 "
+bx !
+$end
+#15
+b100 '
+b10 "
+b10 &
+b1 #
+b1 %
+b1 +
+#30
+b100 '
+b100 "
+b100 &
+b10 #
+b10 %
+b10 +
+#45
+b100 '
+b1000 "
+b1000 &
+b11 #
+b11 %
+b11 +
+#60
+b11111111111111111111111111111111 *
+b1 !
+b1 )
+b0 $
+b0 (
+b0 ,
+b100 +
+#75
+b11111111111111111111111111111111 *
+b10 !
+b10 )
+b1 $
+b1 (
+b1 ,
+#90
+b11111111111111111111111111111111 *
+b100 !
+b100 )
+b10 $
+b10 (
+b10 ,
+#105
+b11111111111111111111111111111111 *
+b1000 !
+b1000 )
+b11 $
+b11 (
+b11 ,
+#120
+b100 ,
